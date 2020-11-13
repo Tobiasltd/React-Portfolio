@@ -144,7 +144,7 @@ const ImgGrid = styled.div`
 
 const Background = styled.div`
   background: linear-gradient(to right bottom, #d9f3f0 50%, #ffc9c9 50%);
-  height: 110vh;
+  height: 120vh;
   width: 100vw;
   @media (max-width: 1000px) {
     height: 100% !important;
