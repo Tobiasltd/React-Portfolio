@@ -4,7 +4,7 @@ import styled from "styled-components";
 import fryslingpic from "../images/fryslingpic1.png";
 import mejsn from "../images/mejsn.png";
 import mern from "../images/mernstack.png";
-import reactlogo from "../images/react.png";
+import reactrxjs from "../images/reactrxjs.png";
 import mernredux from "../images/mernredux.png";
 import gympic from "../images/gympic1.png";
 import contactpic from "../images/contactpic2.png";
@@ -89,7 +89,7 @@ const Overview = () => {
             <PortfolioItem>
               {" "}
               <img src={githubpic} alt="" />
-              <img className="singlelogo" src={reactlogo} alt="" />
+              <img src={reactrxjs} alt="" />
               <SeeProject>
                 <Link to="githubfinder" smooth={true} duration={1000}>
                   See Project

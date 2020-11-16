@@ -51,13 +51,19 @@ const GitHubFinder = () => {
               <Subtitle>Overview</Subtitle>
               <p>
                 Making use of the GitHub API, this React app fetches GitHub
-                profiles based on user input. The most basic of apps.
+                profiles based on user input.
+                <br />
+                <br />
+                RxJS is used to autocomplete the search input in the searchbar.
+                Filter, debouncetime, mergemap and distinctUntillChanged are
+                used with the observable.
               </p>
               <Tech>
                 <Subtitle>Technologies</Subtitle>
                 <p>
                   <ul>
                     <li>React</li>
+                    <li>RxJS</li>
                   </ul>
                 </p>
               </Tech>
